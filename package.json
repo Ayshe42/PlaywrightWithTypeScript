@@ -1,0 +1,17 @@
+{
+  "name": "playwrightwithtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chrome",
+    "test:lt": "npx playwright test --project=\"chrome:latest:MacOS Catalina@lambdatest\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7"
+  }
+}

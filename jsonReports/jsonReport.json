@@ -1,0 +1,151 @@
+{
+  "config": {
+    "configFile": "c:\\Users\\Ayse Golcu\\Desktop\\PlaywrightWithTypeScript\\playwright.config.ts",
+    "rootDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome:latest:MacOS Catalina@lambdatest",
+        "name": "chrome:latest:MacOS Catalina@lambdatest",
+        "testDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/*.spec.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome:latest:Windows 10@lambdatest",
+        "name": "chrome:latest:Windows 10@lambdatest",
+        "testDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/*.spec.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/*.spec.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "c:/Users/Ayse Golcu/Desktop/PlaywrightWithTypeScript",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/*.spec.ts"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.43.1",
+    "workers": 10,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\login.spec.ts",
+      "file": "tests/login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login Test Demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-05-09T16:38:50.528Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b6dc33e290e5a0a43b1-90e4f446491796a01493",
+          "file": "tests/login.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-05-09T16:38:49.332Z",
+    "duration": 6680.662,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
